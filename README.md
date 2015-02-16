@@ -35,7 +35,7 @@ That's all what you need.
 
 Enjoy!
 
-#### Support
+### Support
 #### Javascript 1.6 (ECMA-262 Edition 5)
 Opera 11+  
 Firefox 1.5+  
