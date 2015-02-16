@@ -34,3 +34,12 @@ Just put in your HTML file with ``<script>`` tag and attach with ``window.onload
 That's all what you need.
 
 Enjoy!
+
+#### Support
+#### Javascript 1.6 (ECMA-262 Edition 5)
+Opera 11+  
+Firefox 1.5+  
+Safari 5+  
+Chrome 8+  
+Internet Explorer 9+  
+
