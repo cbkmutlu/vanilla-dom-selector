@@ -41,5 +41,5 @@ Opera 11+
 Firefox 1.5+  
 Safari 5+  
 Chrome 8+  
-Internet Explorer 9+  
+Internet Explorer 8 (Partial Sup) +  
 
