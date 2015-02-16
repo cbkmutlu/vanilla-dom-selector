@@ -23,12 +23,12 @@ OR
 ```javascript
 window.onload = function() {
 
-	$('button').on('click', function() {
+	$('button#btn1').on('click', function() {
 		alert(this.textContent);
 		this.style.cssText = 'background-color: red';
 	});
 	
-	$('button').each(function(el) {
+	$('button.class').each(function(el) {
 		el.style.cssText = 'background-color: yellow';
 	});
 };
