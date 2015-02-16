@@ -1,2 +1,2 @@
-# vanilla-dom-selector
-A super tiny javascript vanilla dom selector
+## vanilla-dom-selector
+### A super tiny javascript vanilla dom selector
