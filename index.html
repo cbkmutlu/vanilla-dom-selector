@@ -20,7 +20,7 @@
 	
 	window.onload = function() {
 	
-		$('button').on('click', function() {
+		$('button.btn2').on('click', function() {
 			alert(this.textContent);
 			this.style.cssText = 'background-color: red';
 		});
@@ -38,8 +38,8 @@
 <body>
 
 <button class="btn1">button 1</button>
-<button class="btn2">button 2</button>
-<button class="btn2">button 3</button>
+<button class="btn2">button 2 (click)</button>
+<button class="btn3">button 3</button>
 
 </body>
 </html>
