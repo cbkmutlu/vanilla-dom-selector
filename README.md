@@ -12,26 +12,23 @@ Just put in your HTML file with ``<script>`` tag and attach with ``window.onload
 	
 	NodeList.prototype.on = function(a, b) {
 		return this.each(function(c) {
-			window.addEventListener ? c.addEventListener(a, b, false) : c.attachEvent('on' + a, b);
+			window.addEventListener ? c.addEventListener(a, b, false) : c.attachEvent('on' + a, b)
 		});
 	};
-})();
-```
-OR  
-``<script src="js/vds.js"></script>``
-
-```javascript
-window.onload = function() {
-
-	$('button#btn1').on('click', function() {
-		alert(this.textContent);
-		this.style.cssText = 'background-color: red';
-	});
 	
-	$('button.class').each(function(el) {
-		el.style.cssText = 'background-color: yellow';
-	});
-};
+	window.onload = function() {
+	
+		$('button#someID').on('click', function() {
+			alert(this.textContent);
+			this.style.cssText = 'background-color: red';
+		});
+		
+		$('button.cLass').each(function(el) {
+			el.style.cssText = 'background-color: yellow';
+		});
+	};
+	
+})();
 ```
 
 That's all what you need.
