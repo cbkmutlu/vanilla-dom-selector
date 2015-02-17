@@ -12,7 +12,7 @@ Just put in your HTML file with ``<script>`` tag and attach with ``window.onload
 	
 	NodeList.prototype.on = function(a, b) {
 		return this.each(function(c) {
-			window.addEventListener ? c.addEventListener(a, b, false) : c.attachEvent('on' + a, b)
+			c.addEventListener(a, b, false);
 		});
 	};
 	
